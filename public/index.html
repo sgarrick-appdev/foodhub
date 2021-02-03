@@ -49,27 +49,37 @@
   </div>
 </nav>
 
-  <h2>
-    Who delivers in your neighborhood?
-  </h2>
+<div class = "container-fluid who-delivers py-6">
+  <div class = "row">
+    <div class = "col-md-6 offset-md-3 text-white">
+    <h2 class = "font-weight-bold">
+        Who delivers in your neighborhood?
+      </h2>
 
-  <form>
-    <div>
-      <label for = "address">
-        Enter your address below.
-      </label>
+      <form>
+        <div class="form-group">
+          <label for = "address">
+            Enter your address below.
+          </label>
+          <div class ="input-group">
+            <div class= "input-group-prepend">
+              <span class = "input-group-text">
+                <i class="fa fa-map-marker"></i>
+              </span>
+            </div>
+          <input class="form-control" id = "address" type="text" placeholder="Street address, city, state">
+          </div>
+        </div>
 
-      <div>
-        <i class="fa fa-map-marker"></i>
-
-        <input id = "address" type="text" placeholder="Street address, city, state">
-      </div>
+        <button class = "btn btn-primary btn-block">
+          Find Food
+        </button>
+      </form>
     </div>
+  </div>
+</div>
 
-    <button>
-      Find Food
-    </button>
-  </form>
+  
 
   <h2>
     How to Foodhub
