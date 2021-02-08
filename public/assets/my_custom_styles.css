@@ -1,5 +1,4 @@
 body{
-
 font-family: 'Montserrat', sans-serif;
 padding-top: 64px;
 }
@@ -8,8 +7,17 @@ padding-top: 64px;
 font-family: 'Passion One', cursive;
 }
 
+.social_media{
+  font-family: 'Montserrat', sans-serif;
+}
+
 .who-delivers{
    background: url("images/main-hero.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.app-down{
+  background: url("images/download-hero.jpg") no-repeat center center;
   background-size: cover;
 }
 
